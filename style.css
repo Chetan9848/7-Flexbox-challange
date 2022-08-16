@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Side deciding section */
+.nav {
+    float: left;
+}
+
+.header,
+.article,
+.footer {
+    float: right;
+}
+
+/* All body styling */
+body {
+    width: 100%;
+    font-size: 30px;
+   }
+
+/* Styling deciding section */
+.nav {
+    background-color: rgb(228, 255, 233);
+    width: 30%;
+    height: 100vh;
+}
+/* Mixed Styling of head article and footer */
+.header p, .article p, .nav p, .footer p{
+    margin: 10px auto auto 20px;
+}
+.header,
+.footer{
+    width: 70%;
+    height: 25vh;
+}
+.article{
+    width: 70%;
+    height: 50vh;  
+}
+/* Selected region styling */
+.header{
+   background-color: greenyellow; 
+ 
+}
+.footer{
+    background-color: greenyellow;
+}
